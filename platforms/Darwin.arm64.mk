@@ -1,1 +1,1 @@
-include Darwin.x86_64.mk
+include $(ROOT)/platforms/Darwin.x86_64.mk
