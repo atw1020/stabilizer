@@ -32,7 +32,7 @@ static void flush_icache(void* begin, size_t size) {
 }
 
 static inline uint8_t getRandomByte() {
-  static RandomNumberGenerator _rng;
+  static llvm::RandomNumberGenerator _rng;
   static uint8_t _randCount = 0;
 
   static union {
